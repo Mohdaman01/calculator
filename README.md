@@ -6,11 +6,11 @@ It has a simple design.
 
 # Tech Stack 
 
->>React
->>JS
->>CSS
->>Font Awesome 
->>Node.js
+React
+JS
+CSS
+Font Awesome 
+Node.js
 
 ### `npm start`
 
