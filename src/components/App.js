@@ -9,7 +9,7 @@ import '../assets/App.css';
 function App() {
 
 //creating result to store state and setResult to change the state, using useState hook.
-  const [result, setResult] = useState('')
+  const [result, setResult] = useState('');
 
 //function to handle click events.
   function clickHandler(button) {
@@ -25,8 +25,7 @@ function App() {
       case '=':
 
         if (
-          result === '' ||
-          result.slice(0, 2) === '00' ||
+          result === '' || 
           result.slice(0) === '*' ||
           result.slice(0) === '+' ||
           result.slice(0) === '-' ||
@@ -40,6 +39,10 @@ function App() {
           result.indexOf('--') !== -1 ||
           result.indexOf('//') !== -1
         ) {
+          return;
+        }
+
+        if(result.length > 1 && result.slice(0,1) ==='0'){
           return;
         }
 
