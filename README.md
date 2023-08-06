@@ -1,7 +1,7 @@
 # Calculator 
 
 This Calculator web app is build with React library.\
-It is a simple calculator, it can person all arithmetic operations.
+It is a simple calculator app, it can person all arithmetic operations.
 It has a simple design.
 
 ### `npm start`
